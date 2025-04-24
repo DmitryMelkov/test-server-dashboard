@@ -1,0 +1,29 @@
+{
+  "mockToken": {
+    "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+  },
+  "mockReports": [
+    {
+      "id": 1,
+      "date": "2025-04-24",
+      "terminal_id": 29220897,
+      "idle_time": 123,
+      "motohours": 123,
+      "trip_time": 123,
+      "millage": 123,
+      "consumption_total": 123,
+      "drained": 123
+    },
+    {
+      "id": 2,
+      "date": "2025-04-23",
+      "terminal_id": 29220897,
+      "idle_time": 321,
+      "motohours": 321,
+      "trip_time": 321,
+      "millage": 321,
+      "consumption_total": 321,
+      "drained": 321
+    }
+  ]
+}

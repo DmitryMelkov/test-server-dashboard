@@ -1,0 +1,30 @@
+{
+  "name": "test-server-dashboard",
+  "version": "1.0.0",
+  "description": "test-server-dashboard",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitryMelkov/test-server-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitryMelkov/test-server-dashboard/issues"
+  },
+  "homepage": "https://github.com/DmitryMelkov/test-server-dashboard#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
