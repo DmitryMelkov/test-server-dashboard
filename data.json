@@ -4,972 +4,2692 @@
   },
   "mockReports": [
     {
-      "id": 1,
-      "date": "2025-04-01",
-      "terminal_id": 29220897,
-      "idle_time": 18.5,
-      "motohours": 1.2,
-      "trip_time": 4.3,
-      "millage": 258,
-      "consumption_total": 25.8,
-      "drained": 2
-    },
-    {
-      "id": 2,
-      "date": "2025-04-02",
-      "terminal_id": 29220897,
-      "idle_time": 16.1,
-      "motohours": 2.5,
-      "trip_time": 5.4,
-      "millage": 324,
-      "consumption_total": 32.4,
-      "drained": 3
-    },
-    {
-      "id": 3,
-      "date": "2025-04-03",
-      "terminal_id": 29220897,
-      "idle_time": 12.8,
-      "motohours": 3.7,
-      "trip_time": 7.5,
-      "millage": 450,
-      "consumption_total": 45.0,
-      "drained": 5
-    },
-    {
-      "id": 4,
-      "date": "2025-04-04",
-      "terminal_id": 29220897,
-      "idle_time": 20.3,
-      "motohours": 0.8,
-      "trip_time": 2.9,
-      "millage": 174,
-      "consumption_total": 17.4,
-      "drained": 1
-    },
-    {
-      "id": 5,
-      "date": "2025-04-05",
-      "terminal_id": 29220897,
-      "idle_time": 14.0,
-      "motohours": 3.0,
-      "trip_time": 7.0,
-      "millage": 420,
-      "consumption_total": 42.0,
-      "drained": 4
-    },
-    {
-      "id": 6,
-      "date": "2025-04-06",
-      "terminal_id": 29220897,
-      "idle_time": 19.1,
-      "motohours": 1.1,
-      "trip_time": 3.8,
-      "millage": 228,
-      "consumption_total": 22.8,
-      "drained": 2
-    },
-    {
-      "id": 7,
-      "date": "2025-04-07",
-      "terminal_id": 29220897,
-      "idle_time": 15.6,
-      "motohours": 2.2,
-      "trip_time": 6.2,
-      "millage": 372,
-      "consumption_total": 37.2,
-      "drained": 3
-    },
-    {
-      "id": 8,
-      "date": "2025-04-08",
-      "terminal_id": 29220897,
-      "idle_time": 10.4,
-      "motohours": 4.5,
-      "trip_time": 9.1,
-      "millage": 546,
-      "consumption_total": 54.6,
-      "drained": 6
-    },
-    {
-      "id": 9,
-      "date": "2025-04-09",
-      "terminal_id": 29220897,
-      "idle_time": 17.9,
-      "motohours": 1.5,
-      "trip_time": 4.6,
-      "millage": 276,
-      "consumption_total": 27.6,
-      "drained": 2
-    },
-    {
-      "id": 10,
-      "date": "2025-04-10",
-      "terminal_id": 29220897,
-      "idle_time": 13.2,
-      "motohours": 3.3,
-      "trip_time": 7.5,
-      "millage": 450,
-      "consumption_total": 45.0,
-      "drained": 4
-    },
-    {
-      "id": 11,
-      "date": "2025-04-11",
-      "terminal_id": 29220897,
-      "idle_time": 21.0,
-      "motohours": 0.7,
-      "trip_time": 2.3,
-      "millage": 138,
-      "consumption_total": 13.8,
-      "drained": 1
-    },
-    {
-      "id": 12,
-      "date": "2025-04-12",
-      "terminal_id": 29220897,
-      "idle_time": 16.8,
-      "motohours": 2.0,
-      "trip_time": 5.2,
-      "millage": 312,
-      "consumption_total": 31.2,
-      "drained": 3
-    },
-    {
-      "id": 13,
-      "date": "2025-04-13",
-      "terminal_id": 29220897,
-      "idle_time": 11.5,
-      "motohours": 4.0,
-      "trip_time": 8.5,
-      "millage": 510,
-      "consumption_total": 51.0,
-      "drained": 5
-    },
-    {
-      "id": 14,
-      "date": "2025-04-14",
-      "terminal_id": 29220897,
-      "idle_time": 18.3,
-      "motohours": 1.3,
-      "trip_time": 4.4,
-      "millage": 264,
-      "consumption_total": 26.4,
-      "drained": 2
-    },
-    {
-      "id": 15,
-      "date": "2025-04-15",
-      "terminal_id": 29220897,
-      "idle_time": 14.7,
-      "motohours": 2.8,
-      "trip_time": 6.5,
-      "millage": 390,
-      "consumption_total": 39.0,
-      "drained": 4
-    },
-    {
-      "id": 16,
-      "date": "2025-04-16",
-      "terminal_id": 29220897,
-      "idle_time": 9.9,
-      "motohours": 5.1,
-      "trip_time": 9.0,
-      "millage": 540,
-      "consumption_total": 54.0,
-      "drained": 7
-    },
-    {
-      "id": 17,
-      "date": "2025-04-17",
-      "terminal_id": 29220897,
-      "idle_time": 20.5,
-      "motohours": 0.9,
-      "trip_time": 2.6,
-      "millage": 156,
-      "consumption_total": 15.6,
-      "drained": 1
-    },
-    {
-      "id": 18,
-      "date": "2025-04-18",
-      "terminal_id": 29220897,
-      "idle_time": 15.2,
-      "motohours": 2.4,
-      "trip_time": 6.4,
-      "millage": 384,
-      "consumption_total": 38.4,
-      "drained": 3
-    },
-    {
-      "id": 19,
-      "date": "2025-04-19",
-      "terminal_id": 29220897,
-      "idle_time": 12.1,
-      "motohours": 3.6,
-      "trip_time": 8.3,
-      "millage": 498,
-      "consumption_total": 49.8,
-      "drained": 5
-    },
-    {
-      "id": 20,
-      "date": "2025-04-20",
-      "terminal_id": 29220897,
-      "idle_time": 17.0,
-      "motohours": 1.8,
-      "trip_time": 5.2,
-      "millage": 312,
-      "consumption_total": 31.2,
-      "drained": 3
-    },
-    {
-      "id": 21,
-      "date": "2025-04-21",
-      "terminal_id": 29220897,
-      "idle_time": 10.8,
-      "motohours": 4.2,
-      "trip_time": 9.0,
-      "millage": 540,
-      "consumption_total": 54.0,
-      "drained": 6
-    },
-    {
-      "id": 22,
-      "date": "2025-04-22",
-      "terminal_id": 29220897,
-      "idle_time": 19.4,
-      "motohours": 1.0,
-      "trip_time": 3.6,
-      "millage": 216,
-      "consumption_total": 21.6,
-      "drained": 2
-    },
-    {
-      "id": 23,
-      "date": "2025-04-23",
-      "terminal_id": 29220897,
-      "idle_time": 13.5,
-      "motohours": 3.5,
-      "trip_time": 7.0,
-      "millage": 420,
-      "consumption_total": 42.0,
-      "drained": 4
-    },
-    {
-      "id": 24,
-      "date": "2025-04-24",
-      "terminal_id": 29220897,
-      "idle_time": 8.7,
-      "motohours": 5.3,
-      "trip_time": 10.0,
-      "millage": 600,
-      "consumption_total": 60.0,
-      "drained": 8
-    },
-    {
-      "id": 25,
-      "date": "2025-04-25",
-      "terminal_id": 29220897,
-      "idle_time": 21.2,
-      "motohours": 0.6,
-      "trip_time": 2.2,
-      "millage": 132,
-      "consumption_total": 13.2,
-      "drained": 1
-    },
-    {
-      "id": 26,
-      "date": "2025-04-26",
-      "terminal_id": 29220897,
-      "idle_time": 16.4,
-      "motohours": 2.1,
-      "trip_time": 5.5,
-      "millage": 330,
-      "consumption_total": 33.0,
-      "drained": 3
-    },
-    {
-      "id": 27,
-      "date": "2025-04-27",
-      "terminal_id": 29220897,
-      "idle_time": 11.9,
-      "motohours": 4.1,
-      "trip_time": 8.0,
-      "millage": 480,
-      "consumption_total": 48.0,
-      "drained": 5
-    },
-    {
-      "id": 28,
-      "date": "2025-04-28",
-      "terminal_id": 29220897,
-      "idle_time": 18.6,
-      "motohours": 1.4,
-      "trip_time": 4.0,
-      "millage": 240,
-      "consumption_total": 24.0,
-      "drained": 2
-    },
-    {
-      "id": 29,
-      "date": "2025-04-29",
-      "terminal_id": 29220897,
-      "idle_time": 14.3,
-      "motohours": 2.7,
-      "trip_time": 7.0,
-      "millage": 420,
-      "consumption_total": 42.0,
-      "drained": 4
-    },
-    {
-      "id": 30,
-      "date": "2025-04-30",
-      "terminal_id": 29220897,
-      "idle_time": 9.5,
-      "motohours": 5.0,
-      "trip_time": 9.5,
-      "millage": 570,
-      "consumption_total": 57.0,
-      "drained": 7
-    },
-    {
-      "id": 31,
-      "date": "2025-03-01",
-      "terminal_id": 29220897,
-      "idle_time": 19.2,
-      "motohours": 1.4,
-      "trip_time": 3.4,
-      "millage": 318,
-      "consumption_total": 31.8,
-      "drained": 3
-    },
-    {
-      "id": 32,
-      "date": "2025-03-02",
-      "terminal_id": 29220897,
-      "idle_time": 14.8,
-      "motohours": 3.0,
-      "trip_time": 6.2,
-      "millage": 432,
-      "consumption_total": 43.2,
-      "drained": 4
-    },
-    {
-      "id": 33,
-      "date": "2025-03-03",
-      "terminal_id": 29220897,
-      "idle_time": 12.5,
-      "motohours": 4.1,
-      "trip_time": 7.4,
-      "millage": 534,
-      "consumption_total": 53.4,
-      "drained": 6
-    },
-    {
-      "id": 34,
-      "date": "2025-03-04",
-      "terminal_id": 29220897,
-      "idle_time": 20.7,
-      "motohours": 0.8,
-      "trip_time": 2.4,
-      "millage": 144,
-      "consumption_total": 14.4,
-      "drained": 1
-    },
-    {
-      "id": 35,
-      "date": "2025-03-05",
-      "terminal_id": 29220897,
-      "idle_time": 15.3,
-      "motohours": 2.6,
-      "trip_time": 6.1,
-      "millage": 408,
-      "consumption_total": 40.8,
-      "drained": 4
-    },
-    {
-      "id": 36,
-      "date": "2025-03-06",
-      "terminal_id": 29220897,
-      "idle_time": 18.9,
-      "motohours": 1.1,
-      "trip_time": 4.0,
-      "millage": 246,
-      "consumption_total": 24.6,
-      "drained": 2
-    },
-    {
-      "id": 37,
-      "date": "2025-03-07",
-      "terminal_id": 29220897,
-      "idle_time": 13.4,
-      "motohours": 3.3,
-      "trip_time": 7.3,
-      "millage": 462,
-      "consumption_total": 46.2,
-      "drained": 5
-    },
-    {
-      "id": 38,
-      "date": "2025-03-08",
-      "terminal_id": 29220897,
-      "idle_time": 11.8,
-      "motohours": 4.2,
-      "trip_time": 8.0,
-      "millage": 558,
-      "consumption_total": 55.8,
-      "drained": 7
-    },
-    {
-      "id": 39,
-      "date": "2025-03-09",
-      "terminal_id": 29220897,
-      "idle_time": 20.4,
-      "motohours": 0.9,
-      "trip_time": 2.7,
-      "millage": 168,
-      "consumption_total": 16.8,
-      "drained": 1
-    },
-    {
-      "id": 40,
-      "date": "2025-03-10",
-      "terminal_id": 29220897,
-      "idle_time": 16.2,
-      "motohours": 2.4,
-      "trip_time": 5.4,
-      "millage": 390,
-      "consumption_total": 39.0,
-      "drained": 4
-    },
-    {
-      "id": 41,
-      "date": "2025-03-11",
-      "terminal_id": 29220897,
-      "idle_time": 14.1,
-      "motohours": 3.7,
-      "trip_time": 6.2,
-      "millage": 492,
-      "consumption_total": 49.2,
-      "drained": 6
-    },
-    {
-      "id": 42,
-      "date": "2025-03-12",
-      "terminal_id": 29220897,
-      "idle_time": 19.6,
-      "motohours": 1.3,
-      "trip_time": 3.1,
-      "millage": 282,
-      "consumption_total": 28.2,
-      "drained": 3
-    },
-    {
-      "id": 43,
-      "date": "2025-03-13",
-      "terminal_id": 29220897,
-      "idle_time": 12.3,
-      "motohours": 4.5,
-      "trip_time": 7.2,
-      "millage": 588,
-      "consumption_total": 58.8,
-      "drained": 8
-    },
-    {
-      "id": 44,
-      "date": "2025-03-14",
-      "terminal_id": 29220897,
-      "idle_time": 20.9,
-      "motohours": 0.7,
-      "trip_time": 2.4,
-      "millage": 126,
-      "consumption_total": 12.6,
-      "drained": 1
-    },
-    {
-      "id": 45,
-      "date": "2025-03-15",
-      "terminal_id": 29220897,
-      "idle_time": 15.7,
-      "motohours": 2.9,
-      "trip_time": 5.4,
-      "millage": 426,
-      "consumption_total": 42.6,
-      "drained": 5
-    },
-    {
-      "id": 46,
-      "date": "2025-03-16",
-      "terminal_id": 29220897,
-      "idle_time": 13.8,
-      "motohours": 3.6,
-      "trip_time": 6.6,
-      "millage": 504,
-      "consumption_total": 50.4,
-      "drained": 7
-    },
-    {
-      "id": 47,
-      "date": "2025-03-17",
-      "terminal_id": 29220897,
-      "idle_time": 19.3,
-      "motohours": 1.2,
-      "trip_time": 3.5,
-      "millage": 270,
-      "consumption_total": 27.0,
-      "drained": 3
-    },
-    {
-      "id": 48,
-      "date": "2025-03-18",
-      "terminal_id": 29220897,
-      "idle_time": 14.6,
-      "motohours": 4.0,
-      "trip_time": 5.4,
-      "millage": 552,
-      "consumption_total": 55.2,
-      "drained": 8
-    },
-    {
-      "id": 49,
-      "date": "2025-03-19",
-      "terminal_id": 29220897,
-      "idle_time": 20.1,
-      "motohours": 0.8,
-      "trip_time": 3.1,
-      "millage": 156,
-      "consumption_total": 15.6,
-      "drained": 1
-    },
-    {
-      "id": 50,
-      "date": "2025-03-20",
-      "terminal_id": 29220897,
-      "idle_time": 16.5,
-      "motohours": 2.5,
-      "trip_time": 5.0,
-      "millage": 414,
-      "consumption_total": 41.4,
-      "drained": 5
-    },
-    {
-      "id": 51,
-      "date": "2025-03-21",
-      "terminal_id": 29220897,
-      "idle_time": 12.9,
-      "motohours": 4.3,
-      "trip_time": 6.8,
-      "millage": 570,
-      "consumption_total": 57.0,
-      "drained": 8
-    },
-    {
-      "id": 52,
-      "date": "2025-03-22",
-      "terminal_id": 29220897,
-      "idle_time": 19.8,
-      "motohours": 1.0,
-      "trip_time": 3.2,
-      "millage": 234,
-      "consumption_total": 23.4,
-      "drained": 3
-    },
-    {
-      "id": 53,
-      "date": "2025-03-23",
-      "terminal_id": 29220897,
-      "idle_time": 14.4,
-      "motohours": 3.8,
-      "trip_time": 5.8,
-      "millage": 486,
-      "consumption_total": 48.6,
-      "drained": 7
-    },
-    {
-      "id": 54,
-      "date": "2025-03-24",
-      "terminal_id": 29220897,
-      "idle_time": 13.1,
-      "motohours": 4.4,
-      "trip_time": 6.5,
-      "millage": 582,
-      "consumption_total": 58.2,
-      "drained": 8
-    },
-    {
-      "id": 55,
-      "date": "2025-03-25",
-      "terminal_id": 29220897,
-      "idle_time": 20.6,
-      "motohours": 0.6,
-      "trip_time": 2.8,
-      "millage": 138,
-      "consumption_total": 13.8,
-      "drained": 1
-    },
-    {
-      "id": 56,
-      "date": "2025-03-26",
-      "terminal_id": 29220897,
-      "idle_time": 15.9,
-      "motohours": 2.8,
-      "trip_time": 5.3,
-      "millage": 438,
-      "consumption_total": 43.8,
-      "drained": 5
-    },
-    {
-      "id": 57,
-      "date": "2025-03-27",
-      "terminal_id": 29220897,
-      "idle_time": 12.7,
-      "motohours": 4.6,
-      "trip_time": 6.7,
-      "millage": 594,
-      "consumption_total": 59.4,
-      "drained": 8
-    },
-    {
-      "id": 58,
-      "date": "2025-03-28",
-      "terminal_id": 29220897,
-      "idle_time": 19.5,
-      "motohours": 1.1,
-      "trip_time": 3.4,
-      "millage": 252,
-      "consumption_total": 25.2,
-      "drained": 3
-    },
-    {
-      "id": 59,
-      "date": "2025-03-29",
-      "terminal_id": 29220897,
-      "idle_time": 14.2,
-      "motohours": 3.9,
-      "trip_time": 5.9,
-      "millage": 498,
-      "consumption_total": 49.8,
-      "drained": 7
-    },
-    {
-      "id": 60,
-      "date": "2025-03-30",
-      "terminal_id": 29220897,
-      "idle_time": 13.3,
-      "motohours": 4.7,
-      "trip_time": 6.0,
-      "millage": 600,
-      "consumption_total": 60.0,
-      "drained": 8
-    },
-    {
-      "id": 61,
-      "date": "2025-02-01",
-      "terminal_id": 29220897,
-      "idle_time": 18.3,
-      "motohours": 1.7,
-      "trip_time": 4.0,
-      "millage": 354,
-      "consumption_total": 35.4,
-      "drained": 3
-    },
-    {
-      "id": 62,
-      "date": "2025-02-02",
-      "terminal_id": 29220897,
-      "idle_time": 13.6,
-      "motohours": 3.4,
-      "trip_time": 7.0,
-      "millage": 468,
-      "consumption_total": 46.8,
-      "drained": 5
-    },
-    {
-      "id": 63,
-      "date": "2025-02-03",
-      "terminal_id": 29220897,
-      "idle_time": 11.2,
-      "motohours": 4.8,
-      "trip_time": 8.0,
-      "millage": 576,
-      "consumption_total": 57.6,
-      "drained": 8
-    },
-    {
-      "id": 64,
-      "date": "2025-02-04",
-      "terminal_id": 29220897,
-      "idle_time": 20.1,
-      "motohours": 0.9,
-      "trip_time": 3.0,
-      "millage": 162,
-      "consumption_total": 16.2,
-      "drained": 1
-    },
-    {
-      "id": 65,
-      "date": "2025-02-05",
-      "terminal_id": 29220897,
-      "idle_time": 15.4,
-      "motohours": 2.6,
-      "trip_time": 6.0,
-      "millage": 408,
-      "consumption_total": 40.8,
-      "drained": 4
-    },
-    {
-      "id": 66,
-      "date": "2025-02-06",
-      "terminal_id": 29220897,
-      "idle_time": 18.7,
-      "motohours": 1.2,
-      "trip_time": 4.1,
-      "millage": 258,
-      "consumption_total": 25.8,
-      "drained": 3
-    },
-    {
-      "id": 67,
-      "date": "2025-02-07",
-      "terminal_id": 29220897,
-      "idle_time": 14.9,
-      "motohours": 3.1,
-      "trip_time": 6.0,
-      "millage": 450,
-      "consumption_total": 45.0,
-      "drained": 5
-    },
-    {
-      "id": 68,
-      "date": "2025-02-08",
-      "terminal_id": 29220897,
-      "idle_time": 12.4,
-      "motohours": 4.3,
-      "trip_time": 7.3,
-      "millage": 564,
-      "consumption_total": 56.4,
-      "drained": 8
-    },
-    {
-      "id": 69,
-      "date": "2025-02-09",
-      "terminal_id": 29220897,
-      "idle_time": 20.5,
-      "motohours": 0.7,
-      "trip_time": 2.8,
-      "millage": 150,
-      "consumption_total": 15.0,
-      "drained": 1
-    },
-    {
-      "id": 70,
-      "date": "2025-02-10",
-      "terminal_id": 29220897,
-      "idle_time": 16.3,
-      "motohours": 2.3,
-      "trip_time": 5.4,
-      "millage": 402,
-      "consumption_total": 40.2,
-      "drained": 4
-    },
-    {
-      "id": 71,
-      "date": "2025-02-11",
-      "terminal_id": 29220897,
-      "idle_time": 13.7,
-      "motohours": 3.9,
-      "trip_time": 6.4,
-      "millage": 516,
-      "consumption_total": 51.6,
-      "drained": 7
-    },
-    {
-      "id": 72,
-      "date": "2025-02-12",
-      "terminal_id": 29220897,
-      "idle_time": 19.4,
-      "motohours": 1.0,
-      "trip_time": 3.6,
-      "millage": 228,
-      "consumption_total": 22.8,
-      "drained": 3
-    },
-    {
-      "id": 73,
-      "date": "2025-02-13",
-      "terminal_id": 29220897,
-      "idle_time": 14.5,
-      "motohours": 4.2,
-      "trip_time": 5.3,
-      "millage": 546,
-      "consumption_total": 54.6,
-      "drained": 8
-    },
-    {
-      "id": 74,
-      "date": "2025-02-14",
-      "terminal_id": 29220897,
-      "idle_time": 20.2,
-      "motohours": 0.8,
-      "trip_time": 3.0,
-      "millage": 174,
-      "consumption_total": 17.4,
-      "drained": 1
-    },
-    {
-      "id": 75,
-      "date": "2025-02-15",
-      "terminal_id": 29220897,
-      "idle_time": 15.8,
-      "motohours": 2.7,
-      "trip_time": 5.5,
-      "millage": 432,
-      "consumption_total": 43.2,
-      "drained": 5
-    },
-    {
-      "id": 76,
-      "date": "2025-02-16",
-      "terminal_id": 29220897,
-      "idle_time": 12.6,
-      "motohours": 4.5,
-      "trip_time": 6.9,
-      "millage": 582,
-      "consumption_total": 58.2,
-      "drained": 8
-    },
-    {
-      "id": 77,
-      "date": "2025-02-17",
-      "terminal_id": 29220897,
-      "idle_time": 19.9,
-      "motohours": 0.9,
-      "trip_time": 3.2,
-      "millage": 198,
-      "consumption_total": 19.8,
-      "drained": 2
-    },
-    {
-      "id": 78,
-      "date": "2025-02-18",
-      "terminal_id": 29220897,
-      "idle_time": 14.3,
-      "motohours": 3.8,
-      "trip_time": 5.9,
-      "millage": 510,
-      "consumption_total": 51.0,
-      "drained": 7
-    },
-    {
-      "id": 79,
-      "date": "2025-02-19",
-      "terminal_id": 29220897,
-      "idle_time": 13.0,
-      "motohours": 4.6,
-      "trip_time": 6.4,
-      "millage": 594,
-      "consumption_total": 59.4,
-      "drained": 8
-    },
-    {
-      "id": 80,
-      "date": "2025-02-20",
-      "terminal_id": 29220897,
-      "idle_time": 20.8,
-      "motohours": 0.6,
-      "trip_time": 2.6,
-      "millage": 132,
-      "consumption_total": 13.2,
-      "drained": 1
-    },
-    {
-      "id": 81,
-      "date": "2025-02-21",
-      "terminal_id": 29220897,
-      "idle_time": 16.1,
-      "motohours": 2.9,
-      "trip_time": 5.0,
-      "millage": 444,
-      "consumption_total": 44.4,
-      "drained": 5
-    },
-    {
-      "id": 82,
-      "date": "2025-02-22",
-      "terminal_id": 29220897,
-      "idle_time": 12.8,
-      "motohours": 4.7,
-      "trip_time": 6.5,
-      "millage": 600,
-      "consumption_total": 60.0,
-      "drained": 8
-    },
-    {
-      "id": 83,
-      "date": "2025-02-23",
-      "terminal_id": 29220897,
-      "idle_time": 19.6,
-      "motohours": 1.1,
-      "trip_time": 3.3,
-      "millage": 246,
-      "consumption_total": 24.6,
-      "drained": 3
-    },
-    {
-      "id": 84,
-      "date": "2025-02-24",
-      "terminal_id": 29220897,
-      "idle_time": 14.0,
-      "motohours": 3.5,
-      "trip_time": 6.5,
-      "millage": 492,
-      "consumption_total": 49.2,
-      "drained": 7
-    },
-    {
-      "id": 85,
-      "date": "2025-02-25",
-      "terminal_id": 29220897,
-      "idle_time": 13.5,
-      "motohours": 4.8,
-      "trip_time": 5.7,
-      "millage": 588,
-      "consumption_total": 58.8,
-      "drained": 8
-    },
-    {
-      "id": 86,
-      "date": "2025-02-26",
-      "terminal_id": 29220897,
-      "idle_time": 20.3,
-      "motohours": 0.7,
-      "trip_time": 3.0,
-      "millage": 144,
-      "consumption_total": 14.4,
-      "drained": 1
-    },
-    {
-      "id": 87,
-      "date": "2025-02-27",
-      "terminal_id": 29220897,
-      "idle_time": 15.6,
-      "motohours": 2.8,
-      "trip_time": 5.6,
-      "millage": 438,
-      "consumption_total": 43.8,
-      "drained": 5
-    },
-    {
-      "id": 88,
-      "date": "2025-02-28",
-      "terminal_id": 29220897,
-      "idle_time": 12.2,
-      "motohours": 4.4,
-      "trip_time": 7.4,
-      "millage": 576,
-      "consumption_total": 57.6,
-      "drained": 8
+      "car_name": "Dynapac 032765",
+      "wln_id": 29216596,
+      "car_data": {
+        "id": 2,
+        "date": "2025-04-23",
+        "wln_id": 29216596,
+        "motohours": 0.29,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.25
+      }
+    },
+    {
+      "car_name": "HIDROMEK 1959EH59",
+      "wln_id": 28903844,
+      "car_data": {
+        "id": 16,
+        "date": "2025-04-27",
+        "wln_id": 28903844,
+        "motohours": 0.0,
+        "millage": 7.72,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "KIA О913АА 159",
+      "wln_id": 26528438,
+      "car_data": {
+        "id": 31,
+        "date": "2025-04-27",
+        "wln_id": 26528438,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Lada Granta ВИС О848НУ 159",
+      "wln_id": 28997388,
+      "car_data": {
+        "id": 46,
+        "date": "2025-04-27",
+        "wln_id": 28997388,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Lada Granta ВИС Р070СУ 159",
+      "wln_id": 28977572,
+      "car_data": {
+        "id": 61,
+        "date": "2025-04-27",
+        "wln_id": 28977572,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Lada Granta О120РС 159",
+      "wln_id": 27115371,
+      "car_data": {
+        "id": 76,
+        "date": "2025-04-27",
+        "wln_id": 27115371,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Lada Granta О279РС 159",
+      "wln_id": 27115411,
+      "car_data": {
+        "id": 91,
+        "date": "2025-04-27",
+        "wln_id": 27115411,
+        "motohours": 1.78,
+        "millage": 67.32,
+        "consumption_total": 3.62,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Lada Granta О575АВ 159",
+      "wln_id": 28883114,
+      "car_data": {
+        "id": 106,
+        "date": "2025-04-27",
+        "wln_id": 28883114,
+        "motohours": 1.92,
+        "millage": 68.36,
+        "consumption_total": 6.77,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.06
+      }
+    },
+    {
+      "car_name": "Lada Granta Р062УК 159",
+      "wln_id": 28333927,
+      "car_data": {
+        "id": 121,
+        "date": "2025-04-27",
+        "wln_id": 28333927,
+        "motohours": 0.17,
+        "millage": 0.54,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.11
+      }
+    },
+    {
+      "car_name": "Lada Granta Р673ТЕ159",
+      "wln_id": 28642774,
+      "car_data": {
+        "id": 136,
+        "date": "2025-04-27",
+        "wln_id": 28642774,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Lada Granta Р736ТЕ159",
+      "wln_id": 28642492,
+      "car_data": {
+        "id": 151,
+        "date": "2025-04-27",
+        "wln_id": 28642492,
+        "motohours": 0.95,
+        "millage": 12.63,
+        "consumption_total": 2.39,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Lada Granta Р839КК 159",
+      "wln_id": 27342194,
+      "car_data": {
+        "id": 166,
+        "date": "2025-04-27",
+        "wln_id": 27342194,
+        "motohours": 0.01,
+        "millage": 0.0,
+        "consumption_total": 0.5,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Lada Granta Р974ТР 159",
+      "wln_id": 28507588,
+      "car_data": {
+        "id": 181,
+        "date": "2025-04-27",
+        "wln_id": 28507588,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "LONKING 1676ЕН 59",
+      "wln_id": 27393545,
+      "car_data": {
+        "id": 190,
+        "date": "2025-04-26",
+        "wln_id": 27393545,
+        "motohours": 0.01,
+        "millage": 0.0,
+        "consumption_total": 0.29,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Lonking 1893ЕН 59",
+      "wln_id": 27706325,
+      "car_data": {
+        "id": 196,
+        "date": "2025-04-27",
+        "wln_id": 27706325,
+        "motohours": 0.12,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "LONKING 4904ЕН 59",
+      "wln_id": 28579799,
+      "car_data": {
+        "id": 207,
+        "date": "2025-04-27",
+        "wln_id": 28579799,
+        "motohours": 7.55,
+        "millage": 92.04,
+        "consumption_total": 79.82,
+        "drained": 0.0,
+        "filled_real": 100.58,
+        "filled_bill": 0.0,
+        "idle_time": 2.24
+      }
+    },
+    {
+      "car_name": "LONKING 4960ЕН 59",
+      "wln_id": 28673024,
+      "car_data": {
+        "id": 210,
+        "date": "2025-04-21",
+        "wln_id": 28673024,
+        "motohours": 0.1,
+        "millage": 0.0,
+        "consumption_total": 0.24,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "LONKING 4978ЕН59",
+      "wln_id": 28695127,
+      "car_data": {
+        "id": 212,
+        "date": "2025-04-27",
+        "wln_id": 28695127,
+        "motohours": 0.07,
+        "millage": 0.07,
+        "consumption_total": 0.24,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "LONKING 4979ЕН59",
+      "wln_id": 28695037,
+      "car_data": {
+        "id": 214,
+        "date": "2025-04-17",
+        "wln_id": 28695037,
+        "motohours": 6.8,
+        "millage": 3.46,
+        "consumption_total": 31.92,
+        "drained": 0.0,
+        "filled_real": 132.93,
+        "filled_bill": 0.0,
+        "idle_time": 3.72
+      }
+    },
+    {
+      "car_name": "MAN Н755МУ159",
+      "wln_id": 28903845,
+      "car_data": {
+        "id": 229,
+        "date": "2025-04-27",
+        "wln_id": 28903845,
+        "motohours": 0.0,
+        "millage": 1.32,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "MAN О756ХА 159",
+      "wln_id": 27849963,
+      "car_data": {
+        "id": 244,
+        "date": "2025-04-27",
+        "wln_id": 27849963,
+        "motohours": 6.73,
+        "millage": 85.18,
+        "consumption_total": 47.86,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 3.31
+      }
+    },
+    {
+      "car_name": "MAN О792ХА 159",
+      "wln_id": 27849508,
+      "car_data": {
+        "id": 259,
+        "date": "2025-04-27",
+        "wln_id": 27849508,
+        "motohours": 0.1,
+        "millage": 0.0,
+        "consumption_total": 0.33,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.08
+      }
+    },
+    {
+      "car_name": "MAN О863НХ 159",
+      "wln_id": 27243713,
+      "car_data": {
+        "id": 270,
+        "date": "2025-04-27",
+        "wln_id": 27243713,
+        "motohours": 9.58,
+        "millage": 153.27,
+        "consumption_total": 78.54,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 2.82
+      }
+    },
+    {
+      "car_name": "MAN О867РМ 159",
+      "wln_id": 27115986,
+      "car_data": {
+        "id": 285,
+        "date": "2025-04-27",
+        "wln_id": 27115986,
+        "motohours": 4.76,
+        "millage": 145.96,
+        "consumption_total": 54.39,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.22
+      }
+    },
+    {
+      "car_name": "MAN О870НХ 159",
+      "wln_id": 27199220,
+      "car_data": {
+        "id": 300,
+        "date": "2025-04-27",
+        "wln_id": 27199220,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "MAN О892НХ 159",
+      "wln_id": 27177660,
+      "car_data": {
+        "id": 315,
+        "date": "2025-04-27",
+        "wln_id": 27177660,
+        "motohours": 9.7,
+        "millage": 170.33,
+        "consumption_total": 102.46,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 1.82
+      }
+    },
+    {
+      "car_name": "MAN О937РМ 159",
+      "wln_id": 27115948,
+      "car_data": {
+        "id": 330,
+        "date": "2025-04-27",
+        "wln_id": 27115948,
+        "motohours": 5.01,
+        "millage": 121.37,
+        "consumption_total": 45.79,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 1.5
+      }
+    },
+    {
+      "car_name": "MAN О945РМ 159",
+      "wln_id": 27116961,
+      "car_data": {
+        "id": 340,
+        "date": "2025-04-27",
+        "wln_id": 27116961,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 1.79,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "MAN Р644ЕУ 159",
+      "wln_id": 27496722,
+      "car_data": {
+        "id": 355,
+        "date": "2025-04-27",
+        "wln_id": 27496722,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 1.53,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "MAN Р767КМ 159",
+      "wln_id": 27496707,
+      "car_data": {
+        "id": 370,
+        "date": "2025-04-27",
+        "wln_id": 27496707,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.07,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "MAN Р911ЕХ 159",
+      "wln_id": 27496595,
+      "car_data": {
+        "id": 385,
+        "date": "2025-04-27",
+        "wln_id": 27496595,
+        "motohours": 5.12,
+        "millage": 146.06,
+        "consumption_total": 53.54,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.92
+      }
+    },
+    {
+      "car_name": "MAN Т266ТТ59",
+      "wln_id": 28903850,
+      "car_data": {
+        "id": 400,
+        "date": "2025-04-27",
+        "wln_id": 28903850,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Mercedes К 171 УА 159",
+      "wln_id": 27394018,
+      "car_data": {
+        "id": 415,
+        "date": "2025-04-27",
+        "wln_id": 27394018,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 2.84,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Renault  Е637НН159",
+      "wln_id": 28936235,
+      "car_data": {
+        "id": 428,
+        "date": "2025-04-27",
+        "wln_id": 28936235,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Renault Logan О 571 АМ 159",
+      "wln_id": 27129482,
+      "car_data": {
+        "id": 443,
+        "date": "2025-04-27",
+        "wln_id": 27129482,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "SITRAK Т264ТТ59",
+      "wln_id": 28903853,
+      "car_data": {
+        "id": 458,
+        "date": "2025-04-27",
+        "wln_id": 28903853,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "TEREX 5622МА 59",
+      "wln_id": 28176655,
+      "car_data": {
+        "id": 469,
+        "date": "2025-04-26",
+        "wln_id": 28176655,
+        "motohours": 7.41,
+        "millage": 1.3,
+        "consumption_total": 22.87,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 6.52
+      }
+    },
+    {
+      "car_name": "Wirtgen W200f 4548ЕН 59",
+      "wln_id": 28145121,
+      "car_data": {
+        "id": 476,
+        "date": "2025-04-27",
+        "wln_id": 28145121,
+        "motohours": 5.67,
+        "millage": 10.72,
+        "consumption_total": 107.43,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 3.35
+      }
+    },
+    {
+      "car_name": "Автогрейдер HBM 4834 МЕ 59",
+      "wln_id": 25779696,
+      "car_data": {
+        "id": 487,
+        "date": "2025-04-26",
+        "wln_id": 25779696,
+        "motohours": 9.59,
+        "millage": 37.51,
+        "consumption_total": 157.55,
+        "drained": 0.0,
+        "filled_real": 94.92,
+        "filled_bill": 0.0,
+        "idle_time": 3.76
+      }
+    },
+    {
+      "car_name": "Автогрейдер HBM-Nobas 4787МЕ 59",
+      "wln_id": 26215975,
+      "car_data": {
+        "id": 498,
+        "date": "2025-04-27",
+        "wln_id": 26215975,
+        "motohours": 7.4,
+        "millage": 5.76,
+        "consumption_total": 29.59,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 4.73
+      }
+    },
+    {
+      "car_name": "Автогрейдер LGCE 5463 ЕН 59",
+      "wln_id": 28817161,
+      "car_data": {
+        "id": 505,
+        "date": "2025-04-22",
+        "wln_id": 28817161,
+        "motohours": 9.13,
+        "millage": 82.58,
+        "consumption_total": 79.66,
+        "drained": 0.0,
+        "filled_real": 149.95,
+        "filled_bill": 0.0,
+        "idle_time": 4.72
+      }
+    },
+    {
+      "car_name": "Асфальтоукладчик VOLVO 5055МЕ 59",
+      "wln_id": 28545912,
+      "car_data": {
+        "id": 511,
+        "date": "2025-04-27",
+        "wln_id": 28545912,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Асфальтоукладчик Volvo 6238МА 59",
+      "wln_id": 29161327,
+      "car_data": {
+        "id": 517,
+        "date": "2025-04-27",
+        "wln_id": 29161327,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Бродвей Насос ВА4140 59",
+      "wln_id": 28594622,
+      "car_data": {
+        "id": 532,
+        "date": "2025-04-27",
+        "wln_id": 28594622,
+        "motohours": 11.62,
+        "millage": 27.18,
+        "consumption_total": 54.22,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 2.04
+      }
+    },
+    {
+      "car_name": "Бульдозер John Deere 7905 МЕ 59",
+      "wln_id": 25791640,
+      "car_data": {
+        "id": 547,
+        "date": "2025-04-27",
+        "wln_id": 25791640,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Бульдозер KOMATSU D65E-12 8349 МЕ 59",
+      "wln_id": 26405606,
+      "car_data": {
+        "id": 553,
+        "date": "2025-04-27",
+        "wln_id": 26405606,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 2.26,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Бульдозер KOMATSU D65E-12 8354 МЕ 59",
+      "wln_id": 28391951,
+      "car_data": {
+        "id": 568,
+        "date": "2025-04-27",
+        "wln_id": 28391951,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Бульдозер Komatsu D39 4259 ме 59",
+      "wln_id": 26215977,
+      "car_data": {
+        "id": 583,
+        "date": "2025-04-27",
+        "wln_id": 26215977,
+        "motohours": 12.85,
+        "millage": 1.41,
+        "consumption_total": 21.43,
+        "drained": 7.38,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 11.99
+      }
+    },
+    {
+      "car_name": "Бульдозер KOMATSU D39 4485МЕ 59",
+      "wln_id": 25767238,
+      "car_data": {
+        "id": 584,
+        "date": "2025-04-17",
+        "wln_id": 25767238,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Бульдозер KOMATSU D65EX-16 8286 МЕ 59",
+      "wln_id": 26410815,
+      "car_data": {
+        "id": 589,
+        "date": "2025-04-17",
+        "wln_id": 26410815,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.22,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Бульдозер Komatsu D65EX-16 9709 МА 59",
+      "wln_id": 25790848,
+      "car_data": {
+        "id": 596,
+        "date": "2025-04-27",
+        "wln_id": 25790848,
+        "motohours": 11.65,
+        "millage": 15.43,
+        "consumption_total": 257.48,
+        "drained": 0.0,
+        "filled_real": 293.59,
+        "filled_bill": 0.0,
+        "idle_time": 5.75
+      }
+    },
+    {
+      "car_name": "Бульдозер KOMATSU D65PX-16 7968 МЕ 59",
+      "wln_id": 26215978,
+      "car_data": {
+        "id": 607,
+        "date": "2025-04-23",
+        "wln_id": 26215978,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Вольво М089МВ 159",
+      "wln_id": 28938824,
+      "car_data": {
+        "id": 622,
+        "date": "2025-04-27",
+        "wln_id": 28938824,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "ГАЗ Гудронатор Р458МЕ 159",
+      "wln_id": 28195105,
+      "car_data": {
+        "id": 628,
+        "date": "2025-04-27",
+        "wln_id": 28195105,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 1.33,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "ГАЗ О515АН 159",
+      "wln_id": 25929528,
+      "car_data": {
+        "id": 642,
+        "date": "2025-04-27",
+        "wln_id": 25929528,
+        "motohours": 0.78,
+        "millage": 169.0,
+        "consumption_total": 5397.97,
+        "drained": 5324.16,
+        "filled_real": 5388.12,
+        "filled_bill": 0.0,
+        "idle_time": 0.15
+      }
+    },
+    {
+      "car_name": "ГАЗ О954НВ 159",
+      "wln_id": 26216041,
+      "car_data": {
+        "id": 657,
+        "date": "2025-04-27",
+        "wln_id": 26216041,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Газель автобус К499НУ 702",
+      "wln_id": 28821672,
+      "car_data": {
+        "id": 672,
+        "date": "2025-04-27",
+        "wln_id": 28821672,
+        "motohours": 7.86,
+        "millage": 163.18,
+        "consumption_total": 27.83,
+        "drained": 0.0,
+        "filled_real": 59.7,
+        "filled_bill": 0.0,
+        "idle_time": 2.42
+      }
+    },
+    {
+      "car_name": "Газель автобус н551мн 159",
+      "wln_id": 26215980,
+      "car_data": {
+        "id": 687,
+        "date": "2025-04-27",
+        "wln_id": 26215980,
+        "motohours": 6.63,
+        "millage": 149.62,
+        "consumption_total": 21.75,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 2.48
+      }
+    },
+    {
+      "car_name": "Газель борт м170хх159",
+      "wln_id": 26215981,
+      "car_data": {
+        "id": 702,
+        "date": "2025-04-27",
+        "wln_id": 26215981,
+        "motohours": 0.03,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Газель борт м887см 159",
+      "wln_id": 26215982,
+      "car_data": {
+        "id": 717,
+        "date": "2025-04-27",
+        "wln_id": 26215982,
+        "motohours": 0.1,
+        "millage": 0.0,
+        "consumption_total": 1.79,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Газель борт О 607 РВ 159",
+      "wln_id": 26698155,
+      "car_data": {
+        "id": 732,
+        "date": "2025-04-27",
+        "wln_id": 26698155,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 1.11,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Газель борт Р595УМ 159",
+      "wln_id": 29018416,
+      "car_data": {
+        "id": 747,
+        "date": "2025-04-27",
+        "wln_id": 29018416,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Газель О370РС 159",
+      "wln_id": 27131392,
+      "car_data": {
+        "id": 762,
+        "date": "2025-04-27",
+        "wln_id": 27131392,
+        "motohours": 0.33,
+        "millage": 9.24,
+        "consumption_total": 2.81,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "ГАЗЕЛЬ Р773СХ159",
+      "wln_id": 27706111,
+      "car_data": {
+        "id": 777,
+        "date": "2025-04-27",
+        "wln_id": 27706111,
+        "motohours": 1.62,
+        "millage": 5.14,
+        "consumption_total": 0.88,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.86
+      }
+    },
+    {
+      "car_name": "Газель фермер борт Р 277 ЕА 159",
+      "wln_id": 26215989,
+      "car_data": {
+        "id": 792,
+        "date": "2025-04-27",
+        "wln_id": 26215989,
+        "motohours": 5.75,
+        "millage": 207.17,
+        "consumption_total": 37.27,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.83
+      }
+    },
+    {
+      "car_name": "Газель Фермер м327оу159",
+      "wln_id": 26215983,
+      "car_data": {
+        "id": 807,
+        "date": "2025-04-27",
+        "wln_id": 26215983,
+        "motohours": 4.65,
+        "millage": 127.37,
+        "consumption_total": 15.75,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.29
+      }
+    },
+    {
+      "car_name": "Газель фермер м645хн 159",
+      "wln_id": 26215984,
+      "car_data": {
+        "id": 822,
+        "date": "2025-04-27",
+        "wln_id": 26215984,
+        "motohours": 9.73,
+        "millage": 113.81,
+        "consumption_total": 16.5,
+        "drained": 0.0,
+        "filled_real": 60.14,
+        "filled_bill": 0.0,
+        "idle_time": 1.2
+      }
+    },
+    {
+      "car_name": "Газель фермер н742мн159",
+      "wln_id": 26215985,
+      "car_data": {
+        "id": 837,
+        "date": "2025-04-27",
+        "wln_id": 26215985,
+        "motohours": 14.24,
+        "millage": 187.44,
+        "consumption_total": 40.96,
+        "drained": 0.0,
+        "filled_real": 51.65,
+        "filled_bill": 0.0,
+        "idle_time": 4.98
+      }
+    },
+    {
+      "car_name": "Газель фермер н825ке 159",
+      "wln_id": 26215987,
+      "car_data": {
+        "id": 852,
+        "date": "2025-04-27",
+        "wln_id": 26215987,
+        "motohours": 6.38,
+        "millage": 178.62,
+        "consumption_total": 36.69,
+        "drained": 0.0,
+        "filled_real": 46.63,
+        "filled_bill": 0.0,
+        "idle_time": 0.61
+      }
+    },
+    {
+      "car_name": "Газель фермер О 716 АА 159",
+      "wln_id": 26215988,
+      "car_data": {
+        "id": 867,
+        "date": "2025-04-27",
+        "wln_id": 26215988,
+        "motohours": 11.69,
+        "millage": 109.4,
+        "consumption_total": 30.41,
+        "drained": 0.0,
+        "filled_real": 55.08,
+        "filled_bill": 0.0,
+        "idle_time": 5.82
+      }
+    },
+    {
+      "car_name": "Газель фермер о351рс 159",
+      "wln_id": 29069493,
+      "car_data": {
+        "id": 882,
+        "date": "2025-04-27",
+        "wln_id": 29069493,
+        "motohours": 5.32,
+        "millage": 149.85,
+        "consumption_total": 26.58,
+        "drained": 0.0,
+        "filled_real": 39.75,
+        "filled_bill": 0.0,
+        "idle_time": 2.15
+      }
+    },
+    {
+      "car_name": "Газель фургон Н 557 ХК 159",
+      "wln_id": 26215998,
+      "car_data": {
+        "id": 897,
+        "date": "2025-04-27",
+        "wln_id": 26215998,
+        "motohours": 4.51,
+        "millage": 144.34,
+        "consumption_total": 25.62,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.41
+      }
+    },
+    {
+      "car_name": "Газель фургон н660еа 159",
+      "wln_id": 26215993,
+      "car_data": {
+        "id": 912,
+        "date": "2025-04-27",
+        "wln_id": 26215993,
+        "motohours": 6.83,
+        "millage": 84.09,
+        "consumption_total": 27.2,
+        "drained": 0.0,
+        "filled_real": 53.36,
+        "filled_bill": 0.0,
+        "idle_time": 3.22
+      }
+    },
+    {
+      "car_name": "Газель фургон н975ке159",
+      "wln_id": 26215995,
+      "car_data": {
+        "id": 927,
+        "date": "2025-04-27",
+        "wln_id": 26215995,
+        "motohours": 2.29,
+        "millage": 37.08,
+        "consumption_total": 6.85,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.84
+      }
+    },
+    {
+      "car_name": "Газель фургон О 549 АА 159",
+      "wln_id": 26215996,
+      "car_data": {
+        "id": 942,
+        "date": "2025-04-27",
+        "wln_id": 26215996,
+        "motohours": 8.21,
+        "millage": 237.47,
+        "consumption_total": 41.11,
+        "drained": 0.0,
+        "filled_real": 53.58,
+        "filled_bill": 0.0,
+        "idle_time": 2.17
+      }
+    },
+    {
+      "car_name": "Газель фургон Р 172 УА 159",
+      "wln_id": 26215992,
+      "car_data": {
+        "id": 954,
+        "date": "2025-04-24",
+        "wln_id": 26215992,
+        "motohours": 0.0,
+        "millage": 31.0,
+        "consumption_total": 0.55,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Газель фургон С 017 АС 159",
+      "wln_id": 29220897,
+      "car_data": {
+        "id": 959,
+        "date": "2025-04-27",
+        "wln_id": 29220897,
+        "motohours": 9.57,
+        "millage": 32.48,
+        "consumption_total": 14.44,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 6.76
+      }
+    },
+    {
+      "car_name": "Генератор JCB G90QS Т0280",
+      "wln_id": 28158222,
+      "car_data": {
+        "id": 974,
+        "date": "2025-04-27",
+        "wln_id": 28158222,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Генератор JCB G90QX T0239",
+      "wln_id": 26216001,
+      "car_data": {
+        "id": 989,
+        "date": "2025-04-27",
+        "wln_id": 26216001,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 2.47,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Генератор JCB G90QX T0318",
+      "wln_id": 26215999,
+      "car_data": {
+        "id": 1004,
+        "date": "2025-04-27",
+        "wln_id": 26215999,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 1.78,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Генератор JCB G90QX T0415",
+      "wln_id": 26216002,
+      "car_data": {
+        "id": 1019,
+        "date": "2025-04-27",
+        "wln_id": 26216002,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 2.16,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Генератор JCB G90QX T0436",
+      "wln_id": 26216000,
+      "car_data": {
+        "id": 1034,
+        "date": "2025-04-27",
+        "wln_id": 26216000,
+        "motohours": 18.99,
+        "millage": 0.64,
+        "consumption_total": 75.49,
+        "drained": 0.0,
+        "filled_real": 170.63,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Грузовой фургон Renault Master О 655 ТР 159",
+      "wln_id": 26216003,
+      "car_data": {
+        "id": 1049,
+        "date": "2025-04-27",
+        "wln_id": 26216003,
+        "motohours": 1.97,
+        "millage": 30.27,
+        "consumption_total": 4.2,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.46
+      }
+    },
+    {
+      "car_name": "Грузовой фургон Renault Master Р 439 ХМ 159",
+      "wln_id": 29220160,
+      "car_data": {
+        "id": 1054,
+        "date": "2025-04-27",
+        "wln_id": 29220160,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "КАМАЗ Е528ЕО159",
+      "wln_id": 28936238,
+      "car_data": {
+        "id": 1066,
+        "date": "2025-04-26",
+        "wln_id": 28936238,
+        "motohours": 6.46,
+        "millage": 47.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.55
+      }
+    },
+    {
+      "car_name": "КАМАЗ О775ТХ159",
+      "wln_id": 28903859,
+      "car_data": {
+        "id": 1081,
+        "date": "2025-04-27",
+        "wln_id": 28903859,
+        "motohours": 0.0,
+        "millage": 84.28,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "КАМАЗ пылесос К912НХ 159",
+      "wln_id": 28200988,
+      "car_data": {
+        "id": 1096,
+        "date": "2025-04-27",
+        "wln_id": 28200988,
+        "motohours": 1.43,
+        "millage": 18.32,
+        "consumption_total": 8.92,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.52
+      }
+    },
+    {
+      "car_name": "Каток асфальт DYNAPAC CC3800 МА6153 59",
+      "wln_id": 26216007,
+      "car_data": {
+        "id": 1097,
+        "date": "2025-04-27",
+        "wln_id": 26216007,
+        "motohours": 0.24,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.19
+      }
+    },
+    {
+      "car_name": "Каток асфальт DYNAPAC CC4200 МА6239 59",
+      "wln_id": 26216008,
+      "car_data": {
+        "id": 1103,
+        "date": "2025-04-27",
+        "wln_id": 26216008,
+        "motohours": 0.03,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Каток асфальт DYNAPAC CC5200 МА6252 59",
+      "wln_id": 26216009,
+      "car_data": {
+        "id": 1111,
+        "date": "2025-04-26",
+        "wln_id": 26216009,
+        "motohours": 11.38,
+        "millage": 32.03,
+        "consumption_total": 77.55,
+        "drained": 0.0,
+        "filled_real": 113.42,
+        "filled_bill": 0.0,
+        "idle_time": 2.91
+      }
+    },
+    {
+      "car_name": "Каток асфальт HAMM 4065ме 59",
+      "wln_id": 26216010,
+      "car_data": {
+        "id": 1126,
+        "date": "2025-04-27",
+        "wln_id": 26216010,
+        "motohours": 0.3,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.21
+      }
+    },
+    {
+      "car_name": "Каток асфальт HAMM 7753ме 59",
+      "wln_id": 26216011,
+      "car_data": {
+        "id": 1139,
+        "date": "2025-04-27",
+        "wln_id": 26216011,
+        "motohours": 0.18,
+        "millage": 0.17,
+        "consumption_total": 0.88,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Каток грунтовый Bomag 6175ма59",
+      "wln_id": 26216013,
+      "car_data": {
+        "id": 1154,
+        "date": "2025-04-27",
+        "wln_id": 26216013,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Каток грунтовый BOMAG 8397 МЕ 59",
+      "wln_id": 26577684,
+      "car_data": {
+        "id": 1158,
+        "date": "2025-04-26",
+        "wln_id": 26577684,
+        "motohours": 0.54,
+        "millage": 0.98,
+        "consumption_total": 26.35,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Каток грунтовый BOMAG 8398 МЕ 59",
+      "wln_id": 26627593,
+      "car_data": {
+        "id": 1165,
+        "date": "2025-04-27",
+        "wln_id": 26627593,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Каток грунтовый Bomag 9370ее 59",
+      "wln_id": 26216014,
+      "car_data": {
+        "id": 1169,
+        "date": "2025-04-24",
+        "wln_id": 26216014,
+        "motohours": 1.09,
+        "millage": 2.64,
+        "consumption_total": 7.49,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Каток грунтовый HAMM 5066ме 59",
+      "wln_id": 26216016,
+      "car_data": {
+        "id": 1182,
+        "date": "2025-04-27",
+        "wln_id": 26216016,
+        "motohours": 6.52,
+        "millage": 11.1,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.62
+      }
+    },
+    {
+      "car_name": "Каток дорожный DYNAPAC 8651 МЕ 59",
+      "wln_id": 28330187,
+      "car_data": {
+        "id": 1186,
+        "date": "2025-04-27",
+        "wln_id": 28330187,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Каток дорожный DYNAPAC 9151 МЕ 59",
+      "wln_id": 26916242,
+      "car_data": {
+        "id": 1189,
+        "date": "2025-04-26",
+        "wln_id": 26916242,
+        "motohours": 7.08,
+        "millage": 29.67,
+        "consumption_total": 42.1,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.27
+      }
+    },
+    {
+      "car_name": "Каток комбинированный HAMM 7755ме 59",
+      "wln_id": 26216018,
+      "car_data": {
+        "id": 1204,
+        "date": "2025-04-27",
+        "wln_id": 26216018,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Каток пневмо Ammann 0841ее 59",
+      "wln_id": 26216020,
+      "car_data": {
+        "id": 1219,
+        "date": "2025-04-27",
+        "wln_id": 26216020,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.06,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Каток пневмо Ammann 7015еа 59",
+      "wln_id": 26216021,
+      "car_data": {
+        "id": 1223,
+        "date": "2025-04-27",
+        "wln_id": 26216021,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "КДМ Holder 5966МА 59",
+      "wln_id": 26216024,
+      "car_data": {
+        "id": 1236,
+        "date": "2025-04-27",
+        "wln_id": 26216024,
+        "motohours": 4.2,
+        "millage": 23.71,
+        "consumption_total": 20.53,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.95
+      }
+    },
+    {
+      "car_name": "КДМ Гидрок Камаз н667ве 159",
+      "wln_id": 26216025,
+      "car_data": {
+        "id": 1245,
+        "date": "2025-04-27",
+        "wln_id": 26216025,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "КДМ Камаз гудронатор н839мн 159",
+      "wln_id": 26216026,
+      "car_data": {
+        "id": 1253,
+        "date": "2025-04-27",
+        "wln_id": 26216026,
+        "motohours": 4.89,
+        "millage": 0.1,
+        "consumption_total": 8.4,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 4.83
+      }
+    },
+    {
+      "car_name": "КДМ Камаз м288ус 159",
+      "wln_id": 26216027,
+      "car_data": {
+        "id": 1268,
+        "date": "2025-04-27",
+        "wln_id": 26216027,
+        "motohours": 12.57,
+        "millage": 101.26,
+        "consumption_total": 47.6,
+        "drained": 0.0,
+        "filled_real": 82.81,
+        "filled_bill": 0.0,
+        "idle_time": 6.99
+      }
+    },
+    {
+      "car_name": "КДМ Камаз м363ут 159",
+      "wln_id": 26216028,
+      "car_data": {
+        "id": 1276,
+        "date": "2025-04-25",
+        "wln_id": 26216028,
+        "motohours": 0.04,
+        "millage": 0.0,
+        "consumption_total": 0.11,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "КДМ Камаз м371ут 159",
+      "wln_id": 26216029,
+      "car_data": {
+        "id": 1284,
+        "date": "2025-04-27",
+        "wln_id": 26216029,
+        "motohours": 0.3,
+        "millage": 0.18,
+        "consumption_total": 1.34,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.09
+      }
+    },
+    {
+      "car_name": "КДМ Камаз м373ут 159",
+      "wln_id": 26216030,
+      "car_data": {
+        "id": 1296,
+        "date": "2025-04-27",
+        "wln_id": 26216030,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "КДМ Камаз н233ке159",
+      "wln_id": 25829083,
+      "car_data": {
+        "id": 1310,
+        "date": "2025-04-27",
+        "wln_id": 25829083,
+        "motohours": 8.52,
+        "millage": 131.47,
+        "consumption_total": 46.76,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.1
+      }
+    },
+    {
+      "car_name": "КДМ Камаз н254ке 159",
+      "wln_id": 26216031,
+      "car_data": {
+        "id": 1321,
+        "date": "2025-04-23",
+        "wln_id": 26216031,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "КДМ КАМАЗ О 294 РВ 159",
+      "wln_id": 26216006,
+      "car_data": {
+        "id": 1334,
+        "date": "2025-04-27",
+        "wln_id": 26216006,
+        "motohours": 1.2,
+        "millage": 9.31,
+        "consumption_total": 6.19,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.76
+      }
+    },
+    {
+      "car_name": "КДМ КАМАЗ О 412 ХН 159",
+      "wln_id": 27758494,
+      "car_data": {
+        "id": 1342,
+        "date": "2025-04-27",
+        "wln_id": 27758494,
+        "motohours": 0.55,
+        "millage": 14.25,
+        "consumption_total": 4.72,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "КДМ КАМАЗ О 418 НА 159",
+      "wln_id": 26216032,
+      "car_data": {
+        "id": 1356,
+        "date": "2025-04-27",
+        "wln_id": 26216032,
+        "motohours": 10.04,
+        "millage": 426.33,
+        "consumption_total": 157.01,
+        "drained": 0.0,
+        "filled_real": 158.04,
+        "filled_bill": 0.0,
+        "idle_time": 2.68
+      }
+    },
+    {
+      "car_name": "КДМ КАМАЗ О 662 НА 159",
+      "wln_id": 26216004,
+      "car_data": {
+        "id": 1363,
+        "date": "2025-04-27",
+        "wln_id": 26216004,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 1.08,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "КДМ КАМАЗ О 683 НА 159",
+      "wln_id": 26216005,
+      "car_data": {
+        "id": 1366,
+        "date": "2025-04-16",
+        "wln_id": 26216005,
+        "motohours": 0.16,
+        "millage": 0.0,
+        "consumption_total": 0.23,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.09
+      }
+    },
+    {
+      "car_name": "КДМ КАМАЗ О 727 НА 159",
+      "wln_id": 26216035,
+      "car_data": {
+        "id": 1372,
+        "date": "2025-04-26",
+        "wln_id": 26216035,
+        "motohours": 0.45,
+        "millage": 0.0,
+        "consumption_total": 1.63,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.39
+      }
+    },
+    {
+      "car_name": "КДМ КАМАЗ Р 421 ТН 159",
+      "wln_id": 28508353,
+      "car_data": {
+        "id": 1386,
+        "date": "2025-04-27",
+        "wln_id": 28508353,
+        "motohours": 7.46,
+        "millage": 83.07,
+        "consumption_total": 34.91,
+        "drained": 0.0,
+        "filled_real": 88.64,
+        "filled_bill": 0.0,
+        "idle_time": 1.2
+      }
+    },
+    {
+      "car_name": "КДМ КАМАЗ Р423ТА159",
+      "wln_id": 28833885,
+      "car_data": {
+        "id": 1396,
+        "date": "2025-04-26",
+        "wln_id": 28833885,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "КДМ КАМАЗ Р449ТА159",
+      "wln_id": 28833864,
+      "car_data": {
+        "id": 1408,
+        "date": "2025-04-27",
+        "wln_id": 28833864,
+        "motohours": 16.1,
+        "millage": 55.39,
+        "consumption_total": 66.6,
+        "drained": 0.0,
+        "filled_real": 145.46,
+        "filled_bill": 0.0,
+        "idle_time": 3.73
+      }
+    },
+    {
+      "car_name": "КДМ-пылесос Камаз н936еа 159",
+      "wln_id": 26216037,
+      "car_data": {
+        "id": 1420,
+        "date": "2025-04-26",
+        "wln_id": 26216037,
+        "motohours": 10.26,
+        "millage": 46.02,
+        "consumption_total": 82.2,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.84
+      }
+    },
+    {
+      "car_name": "Кран Grove - 2282ее 59",
+      "wln_id": 26216038,
+      "car_data": {
+        "id": 1435,
+        "date": "2025-04-27",
+        "wln_id": 26216038,
+        "motohours": 6.98,
+        "millage": 1.73,
+        "consumption_total": 17.89,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 5.62
+      }
+    },
+    {
+      "car_name": "Кран Grove 2281ее 59",
+      "wln_id": 26216040,
+      "car_data": {
+        "id": 1447,
+        "date": "2025-04-27",
+        "wln_id": 26216040,
+        "motohours": 0.99,
+        "millage": 0.0,
+        "consumption_total": 11.93,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.99
+      }
+    },
+    {
+      "car_name": "Кран-борт FAW Р 709 РА 159",
+      "wln_id": 28051872,
+      "car_data": {
+        "id": 1459,
+        "date": "2025-04-27",
+        "wln_id": 28051872,
+        "motohours": 7.82,
+        "millage": 39.99,
+        "consumption_total": 33.33,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 5.88
+      }
+    },
+    {
+      "car_name": "Кран-борт Scania e436ен 159",
+      "wln_id": 26216042,
+      "car_data": {
+        "id": 1474,
+        "date": "2025-04-27",
+        "wln_id": 26216042,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 2.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Кран-борт вездеход Камаз н069ев 159",
+      "wln_id": 26216043,
+      "car_data": {
+        "id": 1485,
+        "date": "2025-04-25",
+        "wln_id": 26216043,
+        "motohours": 0.1,
+        "millage": 0.0,
+        "consumption_total": 0.71,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Кран-борт вездеход Камаз н710еа 159",
+      "wln_id": 26216044,
+      "car_data": {
+        "id": 1497,
+        "date": "2025-04-27",
+        "wln_id": 26216044,
+        "motohours": 2.04,
+        "millage": 0.54,
+        "consumption_total": 7.55,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 1.76
+      }
+    },
+    {
+      "car_name": "Легковая Lada Granta м007рс159",
+      "wln_id": 26216045,
+      "car_data": {
+        "id": 1512,
+        "date": "2025-04-27",
+        "wln_id": 26216045,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Легковая Lada Granta м099рс 159",
+      "wln_id": 26755023,
+      "car_data": {
+        "id": 1527,
+        "date": "2025-04-27",
+        "wln_id": 26755023,
+        "motohours": 0.31,
+        "millage": 2.79,
+        "consumption_total": 3.34,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Легковая Lada Granta м712ау 159",
+      "wln_id": 26216048,
+      "car_data": {
+        "id": 1542,
+        "date": "2025-04-27",
+        "wln_id": 26216048,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Легковая Lada Granta Р 977 ЕУ 159",
+      "wln_id": 26216059,
+      "car_data": {
+        "id": 1557,
+        "date": "2025-04-27",
+        "wln_id": 26216059,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Легковая Lada Granta Р407УР159",
+      "wln_id": 25848450,
+      "car_data": {
+        "id": 1572,
+        "date": "2025-04-27",
+        "wln_id": 25848450,
+        "motohours": 4.13,
+        "millage": 166.02,
+        "consumption_total": 7.5,
+        "drained": 0.0,
+        "filled_real": 25.5,
+        "filled_bill": 0.0,
+        "idle_time": 1.02
+      }
+    },
+    {
+      "car_name": "Легковая Lada Granta Р971ТР159",
+      "wln_id": 28508257,
+      "car_data": {
+        "id": 1587,
+        "date": "2025-04-27",
+        "wln_id": 28508257,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Легковая Lada Largus  с242ат 186",
+      "wln_id": 26216049,
+      "car_data": {
+        "id": 1602,
+        "date": "2025-04-27",
+        "wln_id": 26216049,
+        "motohours": 4.36,
+        "millage": 142.45,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Легковая Lada Largus К 511 УС 159",
+      "wln_id": 26638593,
+      "car_data": {
+        "id": 1617,
+        "date": "2025-04-27",
+        "wln_id": 26638593,
+        "motohours": 0.74,
+        "millage": 17.75,
+        "consumption_total": 1.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.1
+      }
+    },
+    {
+      "car_name": "Легковая Lada Largus к853ув 159",
+      "wln_id": 26216050,
+      "car_data": {
+        "id": 1632,
+        "date": "2025-04-27",
+        "wln_id": 26216050,
+        "motohours": 9.2,
+        "millage": 138.46,
+        "consumption_total": 5.16,
+        "drained": 0.0,
+        "filled_real": 33.07,
+        "filled_bill": 0.0,
+        "idle_time": 5.14
+      }
+    },
+    {
+      "car_name": "Легковая Lada Largus м357му 159",
+      "wln_id": 26216051,
+      "car_data": {
+        "id": 1647,
+        "date": "2025-04-27",
+        "wln_id": 26216051,
+        "motohours": 0.09,
+        "millage": 0.0,
+        "consumption_total": 4.45,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Легковая Lada Largus м695ут 159",
+      "wln_id": 26216052,
+      "car_data": {
+        "id": 1661,
+        "date": "2025-04-27",
+        "wln_id": 26216052,
+        "motohours": 7.05,
+        "millage": 135.11,
+        "consumption_total": 15.54,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 1.96
+      }
+    },
+    {
+      "car_name": "Легковая Lada Largus м707ус 159",
+      "wln_id": 26216053,
+      "car_data": {
+        "id": 1673,
+        "date": "2025-04-24",
+        "wln_id": 26216053,
+        "motohours": 0.23,
+        "millage": 0.64,
+        "consumption_total": 1.13,
+        "drained": 0.0,
+        "filled_real": 28.79,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Легковая Lada Largus м720ус 159",
+      "wln_id": 26216055,
+      "car_data": {
+        "id": 1688,
+        "date": "2025-04-27",
+        "wln_id": 26216055,
+        "motohours": 2.18,
+        "millage": 73.02,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.43
+      }
+    },
+    {
+      "car_name": "Легковая Lada Largus н677ст 159",
+      "wln_id": 26216057,
+      "car_data": {
+        "id": 1703,
+        "date": "2025-04-27",
+        "wln_id": 26216057,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Легковая Lada Largus о281на 159",
+      "wln_id": 26215971,
+      "car_data": {
+        "id": 1718,
+        "date": "2025-04-27",
+        "wln_id": 26215971,
+        "motohours": 7.57,
+        "millage": 189.85,
+        "consumption_total": 21.53,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 1.7
+      }
+    },
+    {
+      "car_name": "Легковая Lada Largus о542ам 159",
+      "wln_id": 26599469,
+      "car_data": {
+        "id": 1733,
+        "date": "2025-04-27",
+        "wln_id": 26599469,
+        "motohours": 3.62,
+        "millage": 90.78,
+        "consumption_total": 9.54,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.53
+      }
+    },
+    {
+      "car_name": "Легковая RENAULT LOGAN STEPWAY О 911 АА 159",
+      "wln_id": 26216061,
+      "car_data": {
+        "id": 1748,
+        "date": "2025-04-27",
+        "wln_id": 26216061,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Легковая RENAULT LOGAN STEPWAY О 923 АА 159",
+      "wln_id": 26216062,
+      "car_data": {
+        "id": 1763,
+        "date": "2025-04-27",
+        "wln_id": 26216062,
+        "motohours": 2.38,
+        "millage": 46.5,
+        "consumption_total": 4.81,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 1.14
+      }
+    },
+    {
+      "car_name": "Легковая Renault Logan а200ту 159",
+      "wln_id": 26216063,
+      "car_data": {
+        "id": 1778,
+        "date": "2025-04-27",
+        "wln_id": 26216063,
+        "motohours": 1.41,
+        "millage": 25.64,
+        "consumption_total": 4.4,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.27
+      }
+    },
+    {
+      "car_name": "Легковая Renault Logan о513мт 159",
+      "wln_id": 26591182,
+      "car_data": {
+        "id": 1793,
+        "date": "2025-04-27",
+        "wln_id": 26591182,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Легковая Renault Logan о534мт 159",
+      "wln_id": 26215973,
+      "car_data": {
+        "id": 1808,
+        "date": "2025-04-27",
+        "wln_id": 26215973,
+        "motohours": 0.13,
+        "millage": 1.13,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Легковая Toyota Corolla к925ма 159",
+      "wln_id": 26216064,
+      "car_data": {
+        "id": 1823,
+        "date": "2025-04-27",
+        "wln_id": 26216064,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Легковая Toyota Rav4 х205ве 59",
+      "wln_id": 26216065,
+      "car_data": {
+        "id": 1838,
+        "date": "2025-04-27",
+        "wln_id": 26216065,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "Легковая Volkswagen Caddy О988РВ 159",
+      "wln_id": 26718225,
+      "car_data": {
+        "id": 1853,
+        "date": "2025-04-27",
+        "wln_id": 26718225,
+        "motohours": 1.81,
+        "millage": 34.66,
+        "consumption_total": 3.5,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.28
+      }
+    },
+    {
+      "car_name": "МАН Н924ТМ159",
+      "wln_id": 28938901,
+      "car_data": {
+        "id": 1864,
+        "date": "2025-04-24",
+        "wln_id": 28938901,
+        "motohours": 0.0,
+        "millage": 0.53,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "МАН О037СЕ 159",
+      "wln_id": 28938810,
+      "car_data": {
+        "id": 1879,
+        "date": "2025-04-27",
+        "wln_id": 28938810,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "МАН Р827СН 159",
+      "wln_id": 27987539,
+      "car_data": {
+        "id": 1887,
+        "date": "2025-04-27",
+        "wln_id": 27987539,
+        "motohours": 5.11,
+        "millage": 146.25,
+        "consumption_total": 58.98,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 1.24
+      }
+    },
+    {
+      "car_name": "МТЗ 82 4910ЕН",
+      "wln_id": 28602405,
+      "car_data": {
+        "id": 1895,
+        "date": "2025-04-27",
+        "wln_id": 28602405,
+        "motohours": 9.47,
+        "millage": 26.46,
+        "consumption_total": 13.34,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 5.64
+      }
+    },
+    {
+      "car_name": "МТЗ 82 4911ЕН",
+      "wln_id": 28602071,
+      "car_data": {
+        "id": 1905,
+        "date": "2025-04-25",
+        "wln_id": 28602071,
+        "motohours": 0.0,
+        "millage": 0.17,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "МТЗ 82-1 4585ЕН59",
+      "wln_id": 27706937,
+      "car_data": {
+        "id": 1908,
+        "date": "2025-04-26",
+        "wln_id": 27706937,
+        "motohours": 4.91,
+        "millage": 41.6,
+        "consumption_total": 16.3,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 1.86
+      }
+    },
+    {
+      "car_name": "МТЗ 82-1 4710 ЕН 59",
+      "wln_id": 28309799,
+      "car_data": {
+        "id": 1910,
+        "date": "2025-04-21",
+        "wln_id": 28309799,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "МТЗ 82-1 5515 ЕН 59",
+      "wln_id": 28866896,
+      "car_data": {
+        "id": 1913,
+        "date": "2025-04-22",
+        "wln_id": 28866896,
+        "motohours": 2.39,
+        "millage": 33.89,
+        "consumption_total": 13.09,
+        "drained": 0.0,
+        "filled_real": 34.22,
+        "filled_bill": 0.0,
+        "idle_time": 0.21
+      }
+    },
+    {
+      "car_name": "МТЗ 82-1 5516 ЕН 59",
+      "wln_id": 28866938,
+      "car_data": {
+        "id": 1923,
+        "date": "2025-04-24",
+        "wln_id": 28866938,
+        "motohours": 0.12,
+        "millage": 0.35,
+        "consumption_total": 0.29,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "МТЗ 82-1 5627 ЕН 59",
+      "wln_id": 28973399,
+      "car_data": {
+        "id": 1924,
+        "date": "2025-04-15",
+        "wln_id": 28973399,
+        "motohours": 1.21,
+        "millage": 4.08,
+        "consumption_total": 2.02,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.16
+      }
+    },
+    {
+      "car_name": "МТЗ Трактор 4484 МЕ 59",
+      "wln_id": 26216114,
+      "car_data": {
+        "id": 1925,
+        "date": "2025-04-15",
+        "wln_id": 26216114,
+        "motohours": 1.28,
+        "millage": 16.73,
+        "consumption_total": 12.73,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.38
+      }
+    },
+    {
+      "car_name": "МТЗ Трактор 5582 МА 59",
+      "wln_id": 26216116,
+      "car_data": {
+        "id": 1926,
+        "date": "2025-04-14",
+        "wln_id": 26216116,
+        "motohours": 0.14,
+        "millage": 0.0,
+        "consumption_total": 0.69,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.11
+      }
+    },
+    {
+      "car_name": "МТЗ Трактор 5699 МА 59",
+      "wln_id": 26216117,
+      "car_data": {
+        "id": 1933,
+        "date": "2025-04-26",
+        "wln_id": 26216117,
+        "motohours": 0.82,
+        "millage": 5.86,
+        "consumption_total": 4.51,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "МТЗ Трактор 7925 МЕ 59",
+      "wln_id": 26216067,
+      "car_data": {
+        "id": 1943,
+        "date": "2025-04-25",
+        "wln_id": 26216067,
+        "motohours": 0.1,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "МТЗ Трактор 7942 МЕ 59",
+      "wln_id": 26216068,
+      "car_data": {
+        "id": 1952,
+        "date": "2025-04-26",
+        "wln_id": 26216068,
+        "motohours": 0.12,
+        "millage": 0.27,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
+    },
+    {
+      "car_name": "МТЗ Трактор 7943 МЕ 59",
+      "wln_id": 26216066,
+      "car_data": {
+        "id": 1961,
+        "date": "2025-04-25",
+        "wln_id": 26216066,
+        "motohours": 4.7,
+        "millage": 54.84,
+        "consumption_total": 17.54,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.53
+      }
+    },
+    {
+      "car_name": "МТЗ Трактор 8129 МЕ 59",
+      "wln_id": 26397294,
+      "car_data": {
+        "id": 1969,
+        "date": "2025-04-25",
+        "wln_id": 26397294,
+        "motohours": 0.0,
+        "millage": 0.0,
+        "consumption_total": 0.0,
+        "drained": 0.0,
+        "filled_real": 0.0,
+        "filled_bill": 0.0,
+        "idle_time": 0.0
+      }
     }
   ]
 }

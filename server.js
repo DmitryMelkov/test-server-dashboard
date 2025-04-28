@@ -7,18 +7,30 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 
 // Middleware
-app.use(cors()); // Разрешаем CORS
-app.use(bodyParser.json()); // Парсим JSON-данные
+app.use(cors());
+app.use(bodyParser.json());
 
-// Читаем данные из JSON-файла
-const data = JSON.parse(readFileSync('./data.json', 'utf-8'));
+// Логирование всех входящих запросов (добавьте это сразу после создания app)
+app.use((req, res, next) => {
+  console.log(`${req.method} ${req.url}`);
+  next();
+});
+
+// Читаем данные из JSON-файла с обработкой ошибок
+let data;
+try {
+  data = JSON.parse(readFileSync('./data.json', 'utf-8'));
+} catch (err) {
+  console.error('Ошибка чтения data.json:', err);
+  process.exit(1); // Завершаем процесс с ошибкой
+}
 
 // Эндпоинт для авторизации
 app.post('/api/token', (req, res) => {
   const { username, password } = req.body;
 
   if (username === 'TDG' && password === '123456fgh') {
-    res.json(data.mockToken); // Возвращаем токен из JSON
+    res.json(data.mockToken);
   } else {
     res.status(401).json({ error: 'Неверные учетные данные' });
   }
@@ -26,18 +38,7 @@ app.post('/api/token', (req, res) => {
 
 // Эндпоинт для получения отчетов
 app.get('/api/report', (req, res) => {
-  const { start_from, end_to } = req.query;
-
-  if (!start_from || !end_to) {
-    return res.status(400).json({ error: 'Необходимо указать параметры start_from и end_to' });
-  }
-
-  // Фильтруем данные по датам (опционально)
-  const filteredReports = data.mockReports.filter((report) => {
-    return report.date >= start_from && report.date <= end_to;
-  });
-
-  res.json(filteredReports);
+  res.json(data.mockReports);
 });
 
 // Запуск сервера
