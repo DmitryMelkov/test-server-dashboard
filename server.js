@@ -60,5 +60,5 @@ app.get('*', (req, res) => {
 
 // Запуск сервера
 app.listen(PORT, () => {
-  console.log(`Сервер запущен на порту ${PORT}`);
+  console.log(`Сервер запущен на порту http://localhost:${PORT}`);
 });
