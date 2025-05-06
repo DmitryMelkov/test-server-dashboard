@@ -22,12 +22,15 @@ app.use((req, res, next) => {
   next();
 });
 
-// Читаем данные из JSON-файла с обработкой ошибок
+// Читаем данные из JSON-файлов с обработкой ошибок
 let data;
+let vehicleStats;
+
 try {
   data = JSON.parse(readFileSync('./data.json', 'utf-8'));
+  vehicleStats = JSON.parse(readFileSync('./vehicle-stats.json', 'utf-8'));
 } catch (err) {
-  console.error('Ошибка чтения data.json:', err);
+  console.error('Ошибка чтения JSON файлов:', err);
   process.exit(1); // Завершаем процесс с ошибкой
 }
 
@@ -45,6 +48,22 @@ app.post('/api/token', (req, res) => {
 // Эндпоинт для получения отчетов
 app.get('/api/report', (req, res) => {
   res.json(data.mockReports);
+});
+
+// Новый эндпоинт для получения статистики транспортного средства
+// Эндпоинт для получения статистики транспортных средств
+app.get('/api/vehicle-stats', (req, res) => {
+  res.json(vehicleStats.vehicleStats);
+});
+
+// Эндпоинт для получения статистики конкретного транспортного средства по ID
+app.get('/api/vehicle-stats/:id', (req, res) => {
+  const vehicle = vehicleStats.vehicleStats.find((v) => v.id === parseInt(req.params.id));
+  if (vehicle) {
+    res.json(vehicle);
+  } else {
+    res.status(404).json({ error: 'Транспортное средство не найдено' });
+  }
 });
 
 // Подключение клиента из соседней папки test-dashboard
