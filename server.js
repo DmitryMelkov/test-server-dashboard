@@ -26,11 +26,13 @@ app.use((req, res, next) => {
 let data;
 let vehicleStats;
 let financialStats;
+let fuelStats;
 
 try {
   data = JSON.parse(readFileSync('./data.json', 'utf-8'));
   vehicleStats = JSON.parse(readFileSync('./vehicle-stats.json', 'utf-8'));
-  financialStats = JSON.parse(readFileSync('./financial-stat.json', 'utf-8'));
+  financialStats = JSON.parse(readFileSync('./financial-stats.json', 'utf-8'));
+  fuelStats = JSON.parse(readFileSync('./fuel-stats.json', 'utf-8'));
 } catch (err) {
   console.error('Ошибка чтения JSON файлов:', err);
   process.exit(1); // Завершаем процесс с ошибкой
@@ -60,6 +62,11 @@ app.get('/api/vehicle-stats', (req, res) => {
 // Эндпоинт для получения финансовой статистики транспортных средств
 app.get('/api/financial-stats', (req, res) => {
   res.json(financialStats.financialStats);
+});
+
+// Эндпоинт для получения топливной статистики транспортных средств
+app.get('/api/fuel-stats', (req, res) => {
+  res.json(fuelStats.fuelStats);
 });
 
 // Подключение клиента из соседней папки test-dashboard
