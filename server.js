@@ -35,7 +35,7 @@ try {
   fuelStats = JSON.parse(readFileSync('./fuel-stats.json', 'utf-8'));
 } catch (err) {
   console.error('Ошибка чтения JSON файлов:', err);
-  process.exit(1); // Завершаем процесс с ошибкой
+  process.exit(1);
 }
 
 // Эндпоинт для авторизации
@@ -45,39 +45,104 @@ app.post('/api/token', (req, res) => {
   if (username === 'TDG' && password === '123456fgh') {
     res.json(data.mockToken);
   } else {
-    res.status(401).json({ error: 'Неверные учетные данные' });
+    res.status(401).json({
+      message: 'Неверные учетные данные',
+      status: 401,
+    });
   }
 });
 
 // Эндпоинт для получения отчетов
 app.get('/api/report', (req, res) => {
-  res.json(data.mockReports);
+  res.json({
+    data: data.mockReports,
+    status: 200,
+  });
 });
 
 // Эндпоинт для получения статистики транспортных средств
 app.get('/api/vehicle-stats', (req, res) => {
-  res.json(vehicleStats.vehicleStats);
+  try {
+    // Добавляем поддержку фильтрации по дате, если нужно
+    const { date } = req.query;
+    let result = vehicleStats.vehicleStats;
+
+    if (date) {
+      result = result.filter((item) => item.date === date);
+    }
+
+    res.json({
+      vehicleStats: result,
+      status: 200,
+    });
+  } catch (err) {
+    console.error('Ошибка при обработке vehicle-stats:', err);
+    res.status(500).json({
+      message: 'Внутренняя ошибка сервера',
+      status: 500,
+    });
+  }
 });
 
-// Эндпоинт для получения финансовой статистики транспортных средств
+// Эндпоинт для получения финансовой статистики
 app.get('/api/financial-stats', (req, res) => {
-  res.json(financialStats.financialStats);
+  try {
+    const { date } = req.query;
+    let result = financialStats.financialStats;
+
+    if (date) {
+      result = result.filter((item) => item.date === date);
+    }
+
+    res.json({
+      financialStats: result,
+      status: 200,
+    });
+  } catch (err) {
+    console.error('Ошибка при обработке financial-stats:', err);
+    res.status(500).json({
+      message: 'Внутренняя ошибка сервера',
+      status: 500,
+    });
+  }
 });
 
-// Эндпоинт для получения топливной статистики транспортных средств
+// Эндпоинт для получения топливной статистики
 app.get('/api/fuel-stats', (req, res) => {
-  res.json(fuelStats.fuelStats);
+  try {
+    const { date } = req.query;
+    let result = fuelStats.fuelStats;
+
+    if (date) {
+      result = result.filter((item) => item.date === date);
+    }
+
+    res.json({
+      fuelStats: result, // Теперь данные будут в поле fuelStats
+      status: 200,
+    });
+  } catch (err) {
+    console.error('Ошибка при обработке fuel-stats:', err);
+    res.status(500).json({
+      message: 'Внутренняя ошибка сервера',
+      status: 500,
+    });
+  }
 });
 
-// Подключение клиента из соседней папки test-dashboard
+// Подключение клиента
 const clientPath = path.join(__dirname, '../test-dashboard/dist');
-
-// Служба статических файлов для клиента
 app.use(express.static(clientPath));
-
-// Обработка всех остальных маршрутов (например, для SPA)
 app.get('*', (req, res) => {
   res.sendFile(path.join(clientPath, 'index.html'));
+});
+
+// Обработка 404
+app.use((req, res) => {
+  res.status(404).json({
+    message: 'Ресурс не найден',
+    status: 404,
+  });
 });
 
 // Запуск сервера
