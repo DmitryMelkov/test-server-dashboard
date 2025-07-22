@@ -22,7 +22,7 @@ app.use((req, res, next) => {
   next();
 });
 
-// Читаем данные из JSON-файлов с обработкой ошибок
+// Чтение данных из JSON-файлов
 let data;
 let vehicleStats;
 let financialStats;
@@ -38,6 +38,23 @@ try {
   process.exit(1);
 }
 
+// Middleware для проверки авторизации
+const authenticateToken = (req, res, next) => {
+  const authHeader = req.headers['authorization'];
+  const token = authHeader && authHeader.split(' ')[1];
+
+  if (!token) {
+    return res.status(401).json({ message: 'Требуется авторизация', status: 401 });
+  }
+
+  // В реальном приложении здесь должна быть проверка токена
+  if (token !== data.mockToken.access) {
+    return res.status(403).json({ message: 'Неверный токен', status: 403 });
+  }
+
+  next();
+};
+
 // Эндпоинт для авторизации
 app.post('/api/token', (req, res) => {
   const { username, password } = req.body;
@@ -52,23 +69,25 @@ app.post('/api/token', (req, res) => {
   }
 });
 
-// Эндпоинт для получения отчетов
-app.get('/api/report', (req, res) => {
+// Эндпоинт для получения отчетов (GET остается)
+app.get('/api/report', authenticateToken, (req, res) => {
   res.json({
     data: data.mockReports,
     status: 200,
   });
 });
 
-// Эндпоинт для получения статистики транспортных средств
-app.get('/api/vehicle-stats', (req, res) => {
+// Эндпоинт для получения статистики транспортных средств (переделан на POST)
+app.post('/api/vehicle-stats', authenticateToken, (req, res) => {
   try {
-    // Добавляем поддержку фильтрации по дате, если нужно
-    const { date } = req.query;
+    const { start_from, end_to } = req.body;
     let result = vehicleStats.vehicleStats;
 
-    if (date) {
-      result = result.filter((item) => item.date === date);
+    if (start_from && end_to) {
+      result = result.filter((item) => {
+        const itemDate = new Date(item.date);
+        return itemDate >= new Date(start_from) && itemDate <= new Date(end_to);
+      });
     }
 
     res.json({
@@ -84,14 +103,17 @@ app.get('/api/vehicle-stats', (req, res) => {
   }
 });
 
-// Эндпоинт для получения финансовой статистики
-app.get('/api/financial-stats', (req, res) => {
+// Эндпоинт для получения финансовой статистики (переделан на POST)
+app.post('/api/financial-stats', authenticateToken, (req, res) => {
   try {
-    const { date } = req.query;
+    const { start_from, end_to } = req.body;
     let result = financialStats.financialStats;
 
-    if (date) {
-      result = result.filter((item) => item.date === date);
+    if (start_from && end_to) {
+      result = result.filter((item) => {
+        const itemDate = new Date(item.date);
+        return itemDate >= new Date(start_from) && itemDate <= new Date(end_to);
+      });
     }
 
     res.json({
@@ -107,18 +129,21 @@ app.get('/api/financial-stats', (req, res) => {
   }
 });
 
-// Эндпоинт для получения топливной статистики
-app.get('/api/fuel-stats', (req, res) => {
+// Эндпоинт для получения топливной статистики (переделан на POST)
+app.post('/api/fuel-stats', authenticateToken, (req, res) => {
   try {
-    const { date } = req.query;
+    const { start_from, end_to } = req.body;
     let result = fuelStats.fuelStats;
 
-    if (date) {
-      result = result.filter((item) => item.date === date);
+    if (start_from && end_to) {
+      result = result.filter((item) => {
+        const itemDate = new Date(item.date);
+        return itemDate >= new Date(start_from) && itemDate <= new Date(end_to);
+      });
     }
 
     res.json({
-      fuelStats: result, // Теперь данные будут в поле fuelStats
+      fuelStats: result,
       status: 200,
     });
   } catch (err) {
