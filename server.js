@@ -4,6 +4,7 @@ import bodyParser from 'body-parser';
 import { readFileSync } from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import jwt from 'jsonwebtoken';
 
 const app = express();
 const PORT = process.env.PORT || 8000;
@@ -13,8 +14,18 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Middleware
-app.use(cors());
+app.use(
+  cors({
+    origin: 'http://localhost:5173',
+    credentials: true,
+    methods: ['GET', 'POST', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+  })
+);
 app.use(bodyParser.json());
+
+// Секретный ключ для подписи токенов
+const JWT_SECRET = 'your-secret-key-here';
 
 // Логирование всех входящих запросов
 app.use((req, res, next) => {
@@ -23,13 +34,11 @@ app.use((req, res, next) => {
 });
 
 // Чтение данных из JSON-файлов
-let data;
 let vehicleStats;
 let financialStats;
 let fuelStats;
 
 try {
-  data = JSON.parse(readFileSync('./data.json', 'utf-8'));
   vehicleStats = JSON.parse(readFileSync('./vehicle-stats.json', 'utf-8'));
   financialStats = JSON.parse(readFileSync('./financial-stats.json', 'utf-8'));
   fuelStats = JSON.parse(readFileSync('./fuel-stats.json', 'utf-8'));
@@ -37,6 +46,23 @@ try {
   console.error('Ошибка чтения JSON файлов:', err);
   process.exit(1);
 }
+
+// Генерация токенов
+const generateTokens = (userId) => {
+  const accessToken = jwt.sign(
+    { userId, type: 'access' },
+    JWT_SECRET,
+    { expiresIn: '5m' } // 5 минут
+  );
+
+  const refreshToken = jwt.sign(
+    { userId, type: 'refresh' },
+    JWT_SECRET,
+    { expiresIn: '1d' } // 1 день
+  );
+
+  return { accessToken, refreshToken };
+};
 
 // Middleware для проверки авторизации
 const authenticateToken = (req, res, next) => {
@@ -47,12 +73,16 @@ const authenticateToken = (req, res, next) => {
     return res.status(401).json({ message: 'Требуется авторизация', status: 401 });
   }
 
-  // В реальном приложении здесь должна быть проверка токена
-  if (token !== data.mockToken.access) {
-    return res.status(403).json({ message: 'Неверный токен', status: 403 });
+  try {
+    const decoded = jwt.verify(token, JWT_SECRET);
+    if (decoded.type !== 'access') {
+      return res.status(403).json({ message: 'Неверный тип токена', status: 403 });
+    }
+    req.user = decoded;
+    next();
+  } catch (err) {
+    return res.status(403).json({ message: 'Неверный или истекший токен', status: 403 });
   }
-
-  next();
 };
 
 // Эндпоинт для авторизации
@@ -60,12 +90,39 @@ app.post('/api/token', (req, res) => {
   const { username, password } = req.body;
 
   if (username === 'TDG' && password === '123456fgh') {
-    res.json(data.mockToken);
+    const tokens = generateTokens('test-user');
+    res.json({
+      access: tokens.accessToken,
+      refresh: tokens.refreshToken,
+    });
   } else {
     res.status(401).json({
       message: 'Неверные учетные данные',
       status: 401,
     });
+  }
+});
+
+// Эндпоинт для обновления токена
+app.post('/api/token/refresh', (req, res) => {
+  const { refresh } = req.body;
+
+  if (!refresh) {
+    return res.status(400).json({ message: 'Refresh token отсутствует', status: 400 });
+  }
+
+  try {
+    const decoded = jwt.verify(refresh, JWT_SECRET);
+
+    if (decoded.type !== 'refresh') {
+      return res.status(403).json({ message: 'Неверный тип токена', status: 403 });
+    }
+
+    const accessToken = jwt.sign({ userId: decoded.userId, type: 'access' }, JWT_SECRET, { expiresIn: '1m' });
+
+    res.json({ access: accessToken });
+  } catch (err) {
+    res.status(403).json({ message: 'Неверный или истекший refresh token', status: 403 });
   }
 });
 
@@ -173,4 +230,5 @@ app.use((req, res) => {
 // Запуск сервера
 app.listen(PORT, () => {
   console.log(`Сервер запущен на порту http://localhost:${PORT}`);
+  console.log('Тестовые учетные данные: username=TDG, password=123456fgh');
 });
