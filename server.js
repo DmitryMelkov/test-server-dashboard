@@ -137,18 +137,17 @@ app.get('/api/report', authenticateToken, (req, res) => {
 // Эндпоинт для получения статистики транспортных средств (переделан на POST)
 app.post('/api/vehicle-stats', authenticateToken, (req, res) => {
   try {
-    const { start_from, end_to } = req.body;
     let result = vehicleStats.vehicleStats;
 
-    if (start_from && end_to) {
-      result = result.filter((item) => {
-        const itemDate = new Date(item.date);
-        return itemDate >= new Date(start_from) && itemDate <= new Date(end_to);
-      });
-    }
+    // Удаляем поле date из всех записей
+    result = result.map((vehicle) => {
+      const { date, ...rest } = vehicle;
+      return rest;
+    });
 
+    // Возвращаем ВСЕ данные (без ограничения)
     res.json({
-      vehicleStats: result,
+      vehicleStats: result,  
       status: 200,
     });
   } catch (err) {
